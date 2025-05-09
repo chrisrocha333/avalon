@@ -1,0 +1,84 @@
+<h1>Econ & Fin Report</h1>
+    <section>
+      <h2>Christopher Ibarra - {{date_time}}</h2>
+      <h3>Summary</h3><br>
+      <p>S&P 500 - {{sp500_value}} <br></p>
+      <p>S&P 500 Daily % - -{{sp500_daily}} <br></p>
+      <p>S&P 500 30d σ - {{sp500_30d_std}} <br></p>
+      <p>VIX - {{vix}} <br></p>
+      <p>1mo TBill - {{tbill}} <br></p>
+      <p>10yr TBond - {{tbond}} <br></p>
+    </section>
+
+    <section>
+    <h1>Yields & Rates</h1>
+
+    <h2>Yield Curve</h2>
+    <p></p>
+    {{ yields_table | safe }}
+    <figure>
+      <img src="treasury curve.png">
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img src="yield curve trailling heatmap.png">
+      <figcaption></figcaption>
+    </figure>
+
+    <section>
+    <h2>Equities</h2>
+    <h1>S&P 500</h1>
+    <figure>
+      <img src="spy_plots.png">
+      <figcaption></figcaption>
+    </figure>
+    
+    <h1>S&P 500 - Sectors</h1>
+
+    <figure>
+      <img src="sectors correlation.png">
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img src="equity sectors perfomance.png">
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img src="equity sectors options volatility.png">
+      <figcaption></figcaption>
+    </figure>
+
+    </section>
+
+    <section>
+      <h2>Econ</h2>
+      <h1>Labor Market</h1>
+
+      <figure>
+        <img src="labor indicators.png">
+        <figcaption></figcaption>
+      </figure>
+
+      <h1>Prices</h1>
+
+      <figure>
+        <img src="combined_cpi_plots_2x2.png">
+        <figcaption></figcaption>
+      </figure>
+
+      <figure>
+        <img src="yoy_change_by_category.png">
+        <figcaption></figcaption>
+      </figure>
+
+    </section>
+
+
+
+
+
+
+  </section>
